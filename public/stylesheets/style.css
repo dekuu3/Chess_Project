@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import 'shared/variables.css';
+@import 'shared/header.css';
+
+* {
+	font-family: "Montserrat", "Open Sans";
+	color: var(--color-font-text);
+}
+
+html{
+	background: var(--html-color-background);
+}
+
+body {
+	font-weight: var(--body-font-weight);
+	font-size: var(--body-font-size);
+	text-decoration: none;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding:  0em 5em 5em;
+	background-color: var(--body-color-background);
+	max-width: 1000px;
+}
+
+.page-header {
+	font-size: 1.1rem;
+	font-weight: 500;
+	padding-bottom: 1rem;
+}
+
+#password, #name, #email{
+	color: black;
+}
