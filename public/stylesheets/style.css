@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 @import 'shared/variables.css';
 @import 'shared/header.css';
+@import 'shared/buttons.css';
 
 * {
 	font-family: "Montserrat", "Open Sans";
@@ -33,25 +34,7 @@ body {
 	justify-content: center;	
 }
 
-button {
-	font-weight: var(--header-font-weight);
-	font-size: var(--header-font-size);
-	padding: 9px 25px;
-	background-color: var(--color-button-background);
-	border: none;
-	border-radius: 50px;
-	cursor: pointer;
-}
-
-button :hover {
-	background-color: var(--color-button-hover);
-}
-
 .inlineParagraph {
 	display: inline-block;
 	margin: 0;
-}
-
-.caf-btn {
-	margin-left: 1.5rem;
 }
