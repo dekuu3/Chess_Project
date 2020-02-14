@@ -27,3 +27,31 @@ body {
 	font-weight: 500;
 	padding-bottom: 1rem;
 }
+
+.lichessTV {
+	display: flex;
+	justify-content: center;	
+}
+
+button {
+	font-weight: var(--header-font-weight);
+	font-size: var(--header-font-size);
+	padding: 9px 25px;
+	background-color: var(--color-button-background);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+button :hover {
+	background-color: var(--color-button-hover);
+}
+
+.inlineParagraph {
+	display: inline-block;
+	margin: 0;
+}
+
+.caf-btn {
+	margin-left: 1.5rem;
+}

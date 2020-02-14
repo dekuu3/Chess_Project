@@ -15,3 +15,8 @@ header {
 	--header-font-size: 1.2rem;
 	--header-font-weight: 500;
 }
+
+button {
+	--color-button-background: #0088A9;
+	--color-button-hover: #006c87;
+}
