@@ -7,6 +7,7 @@ const express = require('express') //express api
 const expressLayouts = require('express-ejs-layouts') //layout support for ejs
 const morgan = require('morgan') //HTTP request logger
 const helmet = require('helmet') //helps secure express apps by setting/hiding various HTTP headers
+const mongoose = require('mongoose') //for our mongodb schemas
 
 //routers
 const indexRouter = require('./routes/index')
