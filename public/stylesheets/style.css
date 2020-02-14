@@ -27,7 +27,3 @@ body {
 	font-weight: 500;
 	padding-bottom: 1rem;
 }
-
-#password, #name, #email{
-	color: black;
-}
