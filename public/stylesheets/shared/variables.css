@@ -1,9 +1,8 @@
 :root {
 	--color-font-text: #edf0f1;
-	--body-color-background: #24252A;
+	--body-color-background: rgba(20, 20, 20, 0.555);
 	--body-font-size: 15px;
 	--body-font-weight: 500;
-
 }
 
 html {
@@ -11,12 +10,12 @@ html {
 }
 
 header {
-	--color-link-hover: #0088a9;
 	--header-font-size: 1.2rem;
 	--header-font-weight: 500;
 }
 
 button {
 	--color-button-background: #0088A9;
-	--color-button-hover: #006c87;
+	--color-button-hover: #01657e;
+	--button-font-size: 1.1rem;
 }

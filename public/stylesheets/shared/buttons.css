@@ -1,6 +1,6 @@
 button {
 	font-weight: var(--header-font-weight);
-	font-size: var(--header-font-size);
+	font-size: var(--button-font-size);
 	padding: 9px 25px;
 	background-color: var(--color-button-background);
 	border: none;
@@ -8,10 +8,10 @@ button {
 	cursor: pointer;
 }
 
-button :hover {
-	background-color: var(--color-button-hover);
+#caf-button {
+	margin-left: 0.5rem;
 }
 
-.caf-btn {
-	margin-left: 1.5rem;
+.caf-button :hover {
+	background-color: var(--color-button-hover);
 }

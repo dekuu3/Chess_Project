@@ -10,6 +10,11 @@
 
 html{
 	background: var(--html-color-background);
+	background-image: url('../img/chess-pic3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-position: center;
+	background-attachment: fixed;
 }
 
 body {
@@ -27,6 +32,7 @@ body {
 	font-size: 1.1rem;
 	font-weight: 500;
 	padding-bottom: 1rem;
+	letter-spacing: 0.15em;
 }
 
 .lichessTV {
