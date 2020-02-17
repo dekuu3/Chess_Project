@@ -8,10 +8,6 @@ button {
 	cursor: pointer;
 }
 
-#caf-button {
-	margin-left: 0.5rem;
-}
-
-.caf-button :hover {
+a, button:hover {
 	background-color: var(--color-button-hover);
 }

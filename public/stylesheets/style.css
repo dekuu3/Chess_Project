@@ -40,7 +40,6 @@ body {
 	justify-content: center;	
 }
 
-.inlineParagraph {
-	display: inline-block;
-	margin: 0;
+h2 {
+	letter-spacing: 0.15em;
 }
