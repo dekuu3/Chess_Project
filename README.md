@@ -1,4 +1,5 @@
 # Chess Project
+<<<<<<< HEAD
 
 Using Node.js, MongoDB
 
@@ -10,6 +11,7 @@ Using Node.js, MongoDB
 
 [x]Chessboard
 
+<<<<<<< HEAD
 [X]Chess logic
 
     [ ]Add buttons to go back to start positions
@@ -26,3 +28,4 @@ Using Node.js, MongoDB
 
 Chess logic is working!
 ![Logic working](https://user-images.githubusercontent.com/42548632/74787749-db457600-52a7-11ea-9065-9c35363f08ee.PNG)
+
