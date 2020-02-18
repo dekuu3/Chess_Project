@@ -11,7 +11,6 @@ Using Node.js, MongoDB
 
 [x]Chessboard
 
-<<<<<<< HEAD
 [X]Chess logic
 
     [ ]Add buttons to go back to start positions
