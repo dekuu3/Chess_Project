@@ -1,6 +1,4 @@
 # Chess Project
-<<<<<<< HEAD
-
 Using Node.js, MongoDB
 
   **To-Do List**
