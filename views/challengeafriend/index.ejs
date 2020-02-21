@@ -1,16 +1,19 @@
 <title>Challenge a friend</title>
 <h2 class="page-header">Challenge a friend</h2>
 <div id="myBoard" style="width: 500px"></div>
-		  <label>Status:</label>
-		  <div id="status"></div>
-		  <label>FEN:</label>
-		  <div id="fen"></div>
-		  <label>PGN:</label>
-	  <div id="pgn"></div>
+<script>var board = Chessboard('myBoard')</script>
+    <label>Status:</label>
+    <div id="status"></div>
+	  <label>FEN:</label>
+	  <div id="fen"></div>
+		<label>PGN:</label>
+    <div id="pgn"></div>
     
-    <script>
-      // chess.js library: https://github.com/jhlywa/chess.js
+    <button id="setStartBtn">Start Game</button>
 
+    <script>
+    $('#setStartBtn').on('click', function () {
+      
       var board = null
       var game = new Chess()
       var $status = $('#status')
@@ -91,4 +94,5 @@
       board = Chessboard('myBoard', config)
 
       updateStatus()
+    })
     </script>

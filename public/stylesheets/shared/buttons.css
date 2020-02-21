@@ -11,3 +11,8 @@ button {
 a, button:hover {
 	background-color: var(--color-button-hover);
 }
+
+#setStartBtn {
+	margin-top: 10px;
+	margin-left: 42%;	
+}
